@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+    <div class="business-card midlle">
+        <div class="front">
+            <h2>Ricardo Vieira</h2>
+            <span>Developer Full Stack</span>
+            <ul class="contact-info">
+                <li>
+                    <i class="fas fa-mobile-alt"></i> +999999999
+                </li>
+                <li>
+                    <i class="far fa-envelope"></i> rickvieira@email.com
+                </li>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i> Florianópolis, Brazil
+                </li>
+            </ul>
+        </div>
+        <div class="back">
+            <span>VossCode</span>
+        </div>
+    </div>
+
+
+    <script>
+        $(".business-card").click(function(){
+            $(".business-card").toggleClass("business-card-active");
+        });
+        
+    </script>
+    
+</body>
+</html>
